@@ -2,7 +2,7 @@
 
 include './connect.php';
 
-$sql="SELECT * FROM `prodect` ";
+$sql="SELECT * FROM `user` ";
 $result=$conn->query($sql);
  while($row=$result->fetch_assoc()){
 
